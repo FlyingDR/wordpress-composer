@@ -19,6 +19,9 @@
         "wp-cli/wp-cli": "^0.22",
         "composer/installers": "^1.0"
     },
+    "config": {
+        "bin-dir": "bin"
+    },
     "extra": {
         "wordpress-install-dir": "wordpress",
         "installer-paths": {
