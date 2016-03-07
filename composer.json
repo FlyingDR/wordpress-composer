@@ -22,19 +22,5 @@
     },
     "config": {
         "bin-dir": "bin"
-    },
-    "extra": {
-        "wordpress-install-dir": "wordpress",
-        "installer-paths": {
-            "wp-content/plugins/{$name}": [
-                "type:wordpress-plugin"
-            ],
-            "wp-content/mu-plugins/{$name}": [
-                "type:wordpress-muplugin"
-            ],
-            "wp-content/themes/{$name}": [
-                "type:wordpress-theme"
-            ]
-        }
     }
 }
