@@ -172,12 +172,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/FlyingDR/wordpress-composer-tools.git",
-                "reference": "3f5c4fb80f3f99510c8781606c83179e70f7cc36"
+                "reference": "079cae1219e122e18f7c7dc6d8e7ac4a3f545577"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FlyingDR/wordpress-composer-tools/zipball/3f5c4fb80f3f99510c8781606c83179e70f7cc36",
-                "reference": "3f5c4fb80f3f99510c8781606c83179e70f7cc36",
+                "url": "https://api.github.com/repos/FlyingDR/wordpress-composer-tools/zipball/079cae1219e122e18f7c7dc6d8e7ac4a3f545577",
+                "reference": "079cae1219e122e18f7c7dc6d8e7ac4a3f545577",
                 "shasum": ""
             },
             "require": {
@@ -211,7 +211,7 @@
                 }
             ],
             "description": "Composer utilities for Composer-controlled Wordpress projects",
-            "time": "2016-03-08 14:16:38"
+            "time": "2016-03-08 18:22:10"
         },
         {
             "name": "johnpbloch/wordpress",
