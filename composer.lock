@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "fdff9bbb916430752de9e6906086eb0d",
-    "content-hash": "60d546ac3510c0e0e9501c20d373266d",
+    "hash": "cb30e41f2e6491edd86d1ed35a4116a0",
+    "content-hash": "b92327f445530e712d7217f554e6af71",
     "packages": [
         {
             "name": "composer/installers",
@@ -167,17 +167,17 @@
             "time": "2015-09-21 09:42:36"
         },
         {
-            "name": "flying/wordpress-skeleton-tools",
+            "name": "flying/wordpress-composer-tools",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/FlyingDR/wordpress-skeleton-tools.git",
-                "reference": "e34cf6aa35e476f0e4bf56a3404ae0ca1849d59c"
+                "url": "https://github.com/FlyingDR/wordpress-composer-tools.git",
+                "reference": "50e55f958e2455bd4c7a72ff7c6e6151f876666c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FlyingDR/wordpress-skeleton-tools/zipball/e34cf6aa35e476f0e4bf56a3404ae0ca1849d59c",
-                "reference": "e34cf6aa35e476f0e4bf56a3404ae0ca1849d59c",
+                "url": "https://api.github.com/repos/FlyingDR/wordpress-composer-tools/zipball/50e55f958e2455bd4c7a72ff7c6e6151f876666c",
+                "reference": "50e55f958e2455bd4c7a72ff7c6e6151f876666c",
                 "shasum": ""
             },
             "require": {
@@ -190,7 +190,7 @@
             },
             "type": "composer-plugin",
             "extra": {
-                "class": "Flying\\Composer\\Plugin\\WordpressSkeletonToolsPlugin"
+                "class": "Flying\\Composer\\Plugin\\WordpressComposerToolsPlugin"
             },
             "autoload": {
                 "psr-4": {
@@ -207,8 +207,8 @@
                     "email": "alexander.grimalovsky@gmail.com"
                 }
             ],
-            "description": "Composer plugin for Wordpress skeleton project",
-            "time": "2016-03-07 19:41:01"
+            "description": "Composer utilities for Composer-controlled Wordpress projects",
+            "time": "2016-03-08 10:48:47"
         },
         {
             "name": "johnpbloch/wordpress",
@@ -1134,7 +1134,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "flying/wordpress-skeleton-tools": 20
+        "flying/wordpress-composer-tools": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
