@@ -9,7 +9,7 @@
         }
     ],
     "require": {
-        "flying/wordpress-composer-tools": "dev-master@dev"
+        "flying/wordpress-composer-tools": "^0.1"
     },
     "config": {
         "bin-dir": "bin"

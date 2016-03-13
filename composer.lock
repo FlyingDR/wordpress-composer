@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "39155eadb377d1bb347eccb2f0a3fbf8",
-    "content-hash": "aa4e109a298037aa809b02cdeae3d391",
+    "hash": "6dc523d70aab4829b5e0da2b6cb5376c",
+    "content-hash": "dc3a85121310f620678dcb46d87b68a9",
     "packages": [
         {
             "name": "composer/installers",
@@ -168,21 +168,22 @@
         },
         {
             "name": "flying/wordpress-composer-tools",
-            "version": "dev-master",
+            "version": "v0.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/FlyingDR/wordpress-composer-tools.git",
-                "reference": "079cae1219e122e18f7c7dc6d8e7ac4a3f545577"
+                "reference": "e535b0e61fa4fefefd7c7ef0e19e3844cbef75d8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FlyingDR/wordpress-composer-tools/zipball/079cae1219e122e18f7c7dc6d8e7ac4a3f545577",
-                "reference": "079cae1219e122e18f7c7dc6d8e7ac4a3f545577",
+                "url": "https://api.github.com/repos/FlyingDR/wordpress-composer-tools/zipball/e535b0e61fa4fefefd7c7ef0e19e3844cbef75d8",
+                "reference": "e535b0e61fa4fefefd7c7ef0e19e3844cbef75d8",
                 "shasum": ""
             },
             "require": {
                 "composer-plugin-api": "^1.0",
                 "composer/installers": "^1.0",
+                "composer/semver": "^1.0",
                 "johnpbloch/wordpress": "*",
                 "paragonie/random_compat": "^1.1",
                 "php": "^5.4",
@@ -211,7 +212,7 @@
                 }
             ],
             "description": "Composer utilities for Composer-controlled Wordpress projects",
-            "time": "2016-03-08 18:22:10"
+            "time": "2016-03-13 14:16:23"
         },
         {
             "name": "johnpbloch/wordpress",
@@ -434,16 +435,16 @@
         },
         {
             "name": "paragonie/random_compat",
-            "version": "v1.2.1",
+            "version": "v1.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/paragonie/random_compat.git",
-                "reference": "f078eba3bcf140fd69b5fcc3ea5ac809abf729dc"
+                "reference": "b3313b618f4edd76523572531d5d7e22fe747430"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/f078eba3bcf140fd69b5fcc3ea5ac809abf729dc",
-                "reference": "f078eba3bcf140fd69b5fcc3ea5ac809abf729dc",
+                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/b3313b618f4edd76523572531d5d7e22fe747430",
+                "reference": "b3313b618f4edd76523572531d5d7e22fe747430",
                 "shasum": ""
             },
             "require": {
@@ -478,7 +479,7 @@
                 "pseudorandom",
                 "random"
             ],
-            "time": "2016-02-29 17:25:04"
+            "time": "2016-03-11 19:54:08"
         },
         {
             "name": "ramsey/array_column",
@@ -1136,9 +1137,7 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "flying/wordpress-composer-tools": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
