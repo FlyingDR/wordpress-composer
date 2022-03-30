@@ -9,9 +9,13 @@
         }
     ],
     "require": {
-        "flying/wordpress-composer-tools": "*"
+        "flying/wordpress-composer-tools": "^0.3"
     },
     "config": {
-        "bin-dir": "bin"
+        "allow-plugins": {
+            "roots/wordpress-core-installer": true,
+            "composer/installers": true,
+            "flying/wordpress-composer-tools": true
+        }
     }
 }
